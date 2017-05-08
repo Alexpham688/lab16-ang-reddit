@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Rich mans reddit</title>
+  </head>
+  <body ng-app ='myModule' ng-controller ="myController">
+    <h1>Rich Man's Owl Reddit</h1>
+    <div ng-repeat="redditPost in posts">
+    <img ng-src="{{redditPost.data.thumbnail}}">
+    <h3>{{ redditPost.data.title}}</h3>
+    <h4>{{ redditPost.data.author}}</h4>
+    <p>{{ redditPost.data.score}}</p>
+    <p>{{ redditPost.data.date}} {{ redditPost.data.created}}</p>
+
+
+
+    </div >
+
+
+
+
+
+    <script src="lib/angular.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <!-- <script src="factory.js"></script> -->
+
+  </body>
+</html>

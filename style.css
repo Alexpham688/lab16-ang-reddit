@@ -1,0 +1,26 @@
+div {
+  border: 2px solid orange;
+  width:800px;
+  height:auto;
+
+}
+h1 {
+  font-size:3em;
+  color:white;
+
+}
+h3 {
+  color:white;
+
+}
+h4 {
+  color:white;
+}
+p {
+  color:blue;
+}
+body {;
+
+  background-repeat:no-repeat;
+  background-color:#B2B2DC;
+}
